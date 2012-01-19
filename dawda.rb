@@ -5,18 +5,6 @@ describe NumberToWord do
     it "1" do
       number_to_word.number_to_word(1).should == "one"
     end
-    it "3" do
-      number_to_word.number_to_word(3).should == "three"
-    
-      number_to_word.number_to_word(101).should == "onehundredandone"
-    end
-    it "112" do
-      number_to_word.number_to_word(112).should == "onehundredandtwelve"
-    end
-    it "142" do
-      number_to_word.number_to_word(142).should == "onehundredandfortytwo"
-    end
-    it "167" do
       number_to_word.number_to_word(167).should == "onehundredandsixtyseven"
     end
     it "204" do
