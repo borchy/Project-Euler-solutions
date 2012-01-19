@@ -8,24 +8,6 @@ describe NumberToWord do
     it "3" do
       number_to_word.number_to_word(3).should == "three"
     
-      number_to_word.number_to_word(13).should == "thirteen"
-    end
-    it "46" do
-      number_to_word.number_to_word(46).should == "fortysix"
-    end
-    it "66" do
-      number_to_word.number_to_word(66).should == "sixtysix"
-    end
-    it "99" do
-      number_to_word.number_to_word(99).should == "ninetynine"
-    end
-  end
-
-  describe "three digit" do
-    it "100" do
-      number_to_word.number_to_word(100).should == "onehundred"
-    end
-    it "101" do
       number_to_word.number_to_word(101).should == "onehundredandone"
     end
     it "112" do
