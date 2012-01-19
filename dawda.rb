@@ -7,14 +7,7 @@ describe NumberToWord do
     end
     it "3" do
       number_to_word.number_to_word(3).should == "three"
-    end
-  end
-
-  describe "two digit" do
-    it "10" do
-      number_to_word.number_to_word(10).should == "ten"
-    end
-    it "13" do
+    
       number_to_word.number_to_word(13).should == "thirteen"
     end
     it "46" do
