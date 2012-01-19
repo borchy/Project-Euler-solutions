@@ -1,7 +1,3 @@
-describe NumberToWord do
-  let(:number_to_word) { NumberToWord.new 1, 1000 }
-  
-  describe "single digit" do
     it "1" do
       number_to_word.number_to_word(1).should == "one"
     end
