@@ -14,7 +14,6 @@
 class NumberToWord
   def initialize(from, to)
     @from, @to = from, to
-    # TODO: generic
     @numbers = { 1 => 'one', 
            2 => 'two', 
            3 => "three", 
